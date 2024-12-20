@@ -1,0 +1,91 @@
+body{
+    background-image: url(../image/Group\ 4.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.textos{
+    color: white;
+    width: 290px;
+    height: 150px;
+    min-width: 290px;
+}
+
+h1.text-negrito{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    color: black;
+}
+
+p.text-menor{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+}
+
+div.info-usuarios{
+    display: flex;
+    width: 30%;
+    height: 350px;
+    background-color: #EACDCF;
+    border: 2px white solid;
+    background-size: cover;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    min-width: 320px;
+}
+
+
+.mensagem-de-erro{
+    margin-top: -15px;
+    margin-left: -160px;
+}
+
+input{
+    width: 80%;
+    text-align: start;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input#mensagem{
+    height: 100px;
+    padding-bottom: 70px;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    background-color: #2c2c2c;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.sinalizacao-usuario{
+    display: flex;
+    text-align: left;
+    width: 55%;
+}
