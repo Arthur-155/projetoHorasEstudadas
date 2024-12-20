@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+    .container {
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .valor,
+    .valor2,
+    .valor3 {
+        font-size: 17px;
+    }
+
+    #usuario {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    .light-mode .adicionar,
+    .light-mode .subtrair {
+        width: 20%;
+    }
+
+}
+
+@media(max-width: 370px){
+    .light-mode .adicionar,
+    .light-mode .subtrair {
+        height: 40%;
+        width: 20%;
+    }
+
+    body{
+        flex-direction: column;
+    }
+}
