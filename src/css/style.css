@@ -1,11 +1,11 @@
 html{
     height: 100%;
-    overflow: hidden;
 }
 
 body{
     display: flex;
     height: 100%;
+    flex-direction: column;
 }
 
 main{
@@ -55,11 +55,11 @@ button:active{
 }
 
 .fas.fa-sync{
-    margin-bottom: 10px;
     display: flex;
     flex-direction: row-reverse;
     cursor: pointer;
     transition: 0.3 ease;
+    width: 20px;
 }
 
 .light-mode .fas.fa-sync:hover{
