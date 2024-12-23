@@ -77,7 +77,7 @@ Aguarde o Feedback
 Sua contribuição será analisada e, se estiver de acordo, será incorporada ao projeto.
 
 ## 🔍 Demonstração Visual
-<img src="./Animação.gif">
+<img src="./image/Animação.gif"> <img src="./image/responsividade.png"> <img src="./image/responsividade 2.png">
 Interface intuitiva e responsiva!
 
 ## 📘 O que Aprendi

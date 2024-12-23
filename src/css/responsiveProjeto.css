@@ -23,6 +23,11 @@
         width: 20%;
     }
 
+    button#btn-subtrair.subtrair,
+    button#btn-adicionar.adicionar{
+        width: 10%;
+    }
+
 }
 
 @media(max-width: 370px){
@@ -30,6 +35,11 @@
     .light-mode .subtrair {
         height: 40%;
         width: 20%;
+    }
+
+    button#btn-subtrair.subtrair,
+    button#btn-adicionar.adicionar{
+        width: 10%;
     }
 
     body{
